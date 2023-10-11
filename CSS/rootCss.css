@@ -1,0 +1,131 @@
+:root {
+  /*--navBar: #463c2d;*/
+
+  --navBar: linear-gradient(
+    180deg,
+    #000 0,
+    rgba(0, 0, 0, 0.77) 60%,
+    transparent
+  );
+
+  --topShadow: linear-gradient(
+    180deg,
+    #000 0,
+    rgba(0, 0, 0, 0.37) 5%,
+    transparent
+  );
+
+  --backDrop: linear-gradient(
+    180deg,
+    #000 0,
+    rgba(0, 0, 0, 0.77) 45%,
+    transparent
+  );
+
+  --navBarMobile: darkgray; 
+  --navBar-top-px: 8em;
+  --pColor: #fff;
+  --iColor: #eec963;
+}
+
+/*Typsnitt samt Storlek*/
+p {
+  font-family: "Mate SC", sans-serif;
+  color: var(--pColor);
+}
+
+.textFont {
+  font-family: "Mate SC", sans-serif;
+  color: var(--pColor);
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.5vw;
+}
+a {
+  font-family: "Mate SC", sans-serif;
+  color: var(--pColor);
+  list-style: none;
+  text-decoration: none;
+}
+
+button {
+  font-size: larger;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Maximilian", sans-serif;
+
+  color: var(--pColor);
+}
+
+h2 {
+  font-size: 5vw;
+}
+
+h3 {
+  font-size: 5vw;
+}
+h4 {
+    font-size: 100px;
+}
+
+span {
+  color: var(--pColor);
+}
+
+ul,
+li,
+.icons {
+  font-family: "Maximilian", sans-serif;
+
+  list-style: none;
+  text-decoration: none;
+
+  color: var(--iColor);
+}
+
+.playNowButton {
+  color: var(--iColor);
+  font-family: "Maximilian", sans-serif;
+  font-size: 5vw;
+}
+
+
+.nameTitle{
+  text-shadow: 6px 6px 6px #000000;
+}
+
+#Names, .centerGridText {
+
+  font-size: 1.5em;
+  text-shadow: 2px 2px 2px #000000;
+
+}
+
+#txt, .textFont
+ {
+
+  
+  font-size: 2em;
+  text-shadow: 4px 4px 2px #000000;
+  
+
+}
+
+#txt{
+  padding-top: 5vw;
+}
+
+#sTxt {
+ 
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.gameplaygif, #bg-img-default{
+  text-shadow: 4px 4px 6px #000000;
+  
+}

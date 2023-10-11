@@ -1,0 +1,28 @@
+
+
+
+  <li><a href="http://www.youtube.com/channel/UCIqUdfkbYmCGM-YRmk28zCg" target="_blank" class="icon icon-youtube"></a></li>
+  <li><a href="https://www.facebook.com/kingdomcomerpg" target="_blank" class="icon icon-facebook"></a></li>
+        <li><a href="https://twitter.com/WarhorseStudios" class="icon icon-twitter" target="_blank"></a></li>
+  <li><a href="http://www.twitch.tv/warhorsestudios" target="_blank" class="icon icon-twitch"></a></li>
+  <li><a href="https://www.reddit.com/r/kingdomcome/" target="_blank" class="icon icon-reddit"></a></li>
+
+  background-image: url(/ver/20222102/sprites/base/sprites.png);
+  width: 65px;
+  height: 65px;
+
+  background-image: url(/ver/20222102/sprites/base/sprites.png);
+  width: 65px;
+  height: 65px;
+
+  background-image: url(/ver/20222102/sprites/base/sprites.png);
+  width: 65px;
+  height: 65px;
+
+  background-image: url(/ver/20222102/sprites/base/sprites.png);
+  width: 65px;
+  height: 65px;
+
+  background-image: url(/ver/20222102/sprites/base/sprites.png);
+  width: 65px;
+  height: 65px;

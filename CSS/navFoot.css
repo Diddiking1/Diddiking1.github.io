@@ -1,0 +1,161 @@
+/*Navigation bar*/
+
+.navigationBar {
+  top: 0;
+  position: sticky;
+  background: var(--navBar);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.logo {
+  cursor: pointer;
+}
+.mobileNav {
+  display: none;
+  cursor: pointer;
+}
+
+.navigationBar .list {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-evenly;
+  align-items: center;
+
+  /*background-image: url(https://blz-contentstack-images.akamaized.net/v3/assets/bltc965041283bac56c/blt3aa5896219b5f3d7/63ee5b354f98c853eaf097b0/overview_bg.webp);*/
+  background-position: top;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Icons used in the Nav bar*/
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a #hiddenText {
+  display: none;
+}
+/*Page footer*/
+.socialIconSection {
+  border-top: 5px solid black;
+  box-shadow: 0px 0px 20px 50px;
+  margin: 20px;
+  padding-bottom: 5vh;
+  gap: 15px;
+}
+.socialIconFlex {
+
+  flex-flow: wrap;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+
+}
+#SocailIcon {
+  background-image: url(/Bilder/sprites.png);
+  width: 62px;
+  height: 62px;
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.CompanyFlex {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 5vh;
+  margin: 20px;
+  gap: 15px;
+}
+
+#CompanyLogo {
+  background-image: url(/Bilder/sprites.png);
+
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/*Icon display*/
+
+.socialIconFlex .icon-youtube {
+  background-position: -336px -425px;
+}
+.socialIconFlex .icon-youtube:hover {
+  background-position: -68px -425px;
+}
+.socialIconFlex .icon-facebook {
+  background-position: -135px -425px;
+}
+.socialIconFlex .icon-facebook:hover {
+  background-position: -1px -425px;
+}
+.socialIconFlex .icon-twitter {
+  background-position: -323px -276px;
+}
+.socialIconFlex .icon-twitter:hover {
+  background-position: -390px -276px;
+}
+.socialIconFlex .icon-twitch {
+  background-position: -253px -345px;
+}
+.socialIconFlex .icon-twitch:hover {
+  background-position: -320px -345px;
+}
+.socialIconFlex .icon-reddit {
+  background-position: -538px -425px;
+}
+.socialIconFlex .icon-reddit:hover {
+  background-position: -203px -425px;
+}
+
+/*Company logos on display*/
+
+.CompanyFlex .logo-cryengine {
+  background-position: -175px -490px;
+  width: 152px;
+  height: 19px;
+}
+.CompanyFlex .logo-primematter {
+  background-position: -60px -490px;
+  width: 54px;
+  height: 70px;
+}
+.CompanyFlex .logo-esrb {
+  background-position: -484px -333px;
+  width: 148px;
+  height: 71px;
+}
+.CompanyFlex .logo-pegi-18 {
+  background-position: -00px -490px;
+  width: 58px;
+  height: 71px;
+}
+.CompanyFlex .logo-Warhorsestudio {
+  background-position: -252px -242px;
+  width: 160px;
+  height: 30px;
+}
+.CompanyFlex .logo-alienware {
+  background-position: -484px -158px;
+  width: 250px;
+  height: 56px;
+}
+
+.mailUS {
+  padding-bottom: 5vh;
+  margin: 30px 0px 25px 25px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
